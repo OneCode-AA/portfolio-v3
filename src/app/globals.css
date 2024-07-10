@@ -70,10 +70,20 @@
   box-sizing: border-box;
 }
 
-.body-wrapper {
+html,
+body {
+  height: 100vh;
+}
+
+.content-wrapper {
   width: 100%;
   max-width: 1536px;
   margin: auto;
+  background: var(--bg-primary);
+  color: var(--color-primary);
+}
+
+.body-wrapper {
   background: var(--bg-primary);
   color: var(--color-primary);
 }
@@ -84,11 +94,30 @@
   color: snow;
 }
 
+.desert {
+  border-radius: 50%;
+}
+
 .resume-name {
   color: #c8412d;
 }
 
 .resume-title {
+}
+.resume-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 20vh;
+}
+
+.heading-logo {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  justify-content: center;
 }
 
 h1 {
@@ -163,12 +192,12 @@ h6 {
 .themeToggler {
   padding: 4px;
   min-width: 57px;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
   border-radius: 100px;
   transition: var(--transition-1);
   display: block;
   margin: auto;
-  border: 1px solid var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 
 .theme-btn-container.night .themeToggler {

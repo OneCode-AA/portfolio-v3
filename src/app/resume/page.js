@@ -7,7 +7,7 @@ import ResumeCerts from "./components/ResumeCerts";
 
 function page() {
   return (
-    <div className="outer-wrapper w-full">
+    <div className="outer-wrapper w-full p-5">
       <div className="resume-wrapper max-w-screen-lg flex flex-col justify-center m-auto p-2">
         <ResumeHeader />
         <ResumeExp />

@@ -2,7 +2,7 @@ import React from "react";
 
 function ResumeSkills() {
   return (
-    <section className="resume-skills">
+    <section className="resume-skills  text-center">
       <h3 className="section-titles">Skills</h3>
       <article className="skills-list">
         <h5 className="skills-cat text-xl">Programming Languages:</h5>

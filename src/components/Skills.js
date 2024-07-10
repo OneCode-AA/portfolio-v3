@@ -25,7 +25,7 @@ function Skills() {
 
   return (
     <section
-      className={`skills card min-h-full  p-4 bg-emerald-500 md:order-4 ${viewing}`}
+      className={`skills card min-h-full md:w-full sm:w-full md:grayscale-0 sm:grayscale-0 lg:grayscale lg:hover:grayscale-0 p-4 bg-emerald-500 md:order-4 ${viewing}`}
     >
       <article className="section-container">
         <h2 className="section-title m-auto text-center ">Skills</h2>

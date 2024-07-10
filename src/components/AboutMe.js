@@ -24,7 +24,7 @@ function AboutMe() {
 
   return (
     <section
-      className={`about-me card min-h-full  p-4  bg-cyan-500 md:order-3 ${viewing} `}
+      className={`about-me card min-h-full  p-4  bg-cyan-500 md:order-3 md:w-full sm:w-full md:grayscale-0 sm:grayscale-0 lg:grayscale lg:hover:grayscale-0 ${viewing} `}
     >
       <article className="article-container flex flex-col space-between align-center ">
         <h2 className="section-title text-center ">About</h2>
@@ -61,7 +61,7 @@ function AboutMe() {
         </section>
       </article>
       <button className={`info-btn `}>
-        <InfoIcon onClick={letSee}  className="text-5xl hover:text-sky-100"/>
+        <InfoIcon onClick={letSee} className="text-5xl hover:text-sky-100" />
       </button>
     </section>
   );

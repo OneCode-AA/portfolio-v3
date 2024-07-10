@@ -7,8 +7,8 @@ import Link from "next/link";
 
 function SocialNavBar() {
   return (
-    <aside className="aside social-nav col-start-1 col-end-2 row-start-5 row-end-7">
-      <ul className="social-nav-ul">
+    <aside className="aside social-nav pl-4 col-start-1 col-end-2 row-start-5 row-end-7 md:order-7 md:flex  md:w-full md:m-auto sm:order-7 sm:flex  sm:w-full sm:m-auto ">
+      <ul className="social-nav-ul md:flex md:flex-row lg:flex lg:flex-col md:m-auto sm:flex sm:flex-row sm:m-auto">
         <li className="social-nav-li">
           <a href="https://github.com/OneCode-AA" className="social-nav-li-a ">
             <GitHubIcon className="text-5xl  hover:text-slate-700" />

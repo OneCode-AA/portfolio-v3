@@ -3,11 +3,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function ResumeProjects() {
   return (
-    <section className="resume-projects my-7">
+    <section className="resume-projects my-7  text-center">
       <h3 className="section-titles my4">Projects</h3>
 
       <p className="message">
-        Go to 
+        Go to
         <a href="https://github.com/OneCode-AA" className="social-nav-li-a ">
           <GitHubIcon className="text-5xl text-slate-700 hover:text-slate-300" />
         </a>

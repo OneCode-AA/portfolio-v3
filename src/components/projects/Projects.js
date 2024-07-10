@@ -31,7 +31,9 @@ function Projects() {
   }
 
   return (
-    <section className={`projects card min-h-full p-4 bg-blue-600 md:order-5 ${viewing}`}>
+    <section
+      className={`projects card min-h-full p-4 bg-blue-600 md:w-full md:order-5 sm:w-full md:grayscale-0 sm:grayscale-0  lg:grayscale lg:hover:grayscale-0 ${viewing}`}
+    >
       <article className="section-container">
         <h2 className="section-title m-auto">Projects</h2>
         <section
@@ -91,7 +93,7 @@ function Projects() {
         </section>
       </article>
       <article className="view-projects pb-5">
-        <button className="view-work btn rounded-full border-solid p-2.5">
+        <button className="view-work btn rounded-full border-solid p-2.5 sm:p-1 sm:mt-2">
           View My Work
         </button>
       </article>

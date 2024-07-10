@@ -3,7 +3,7 @@ import React from "react";
 function ResumeExp() {
   return (
     <section className="experience">
-      <h3 className="section-titles pb-3">Relevant Experience</h3>
+      <h3 className="section-titles text-center pb-3">Relevant Experience</h3>
       <article className="job flex justify-between my-5">
         <ul className="details">
           <li className="job-title">Software Developer</li>

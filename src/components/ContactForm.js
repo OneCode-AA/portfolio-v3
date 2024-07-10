@@ -23,7 +23,7 @@ function ContactForm() {
   }
   return (
     <section
-      className={`contact-form card min-h-full p-4 bg-rose-900 md:order-6 ${viewing}`}
+      className={`contact-form card min-h-full p-4 bg-rose-900 md:order-6 md:w-full sm:w-full md:grayscale-0 sm:grayscale-0 lg:grayscale lg:hover:grayscale-0 ${viewing}`}
     >
       {" "}
       <h2 className="section-title text-center ">Contact</h2>
