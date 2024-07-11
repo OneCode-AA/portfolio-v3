@@ -135,7 +135,7 @@ function Skills() {
 
               <article className="skills-card flex justify-center align-center">
                 <Image
-                  src="/react.png"
+                  src="/React.png"
                   className="skill-img"
                   width={35}
                   height={35}
@@ -145,7 +145,7 @@ function Skills() {
 
               <article className="skills-card flex justify-center align-center">
                 <Image
-                  src="/Nextjs.png"
+                  src="/Next.js.png"
                   className="skill-img"
                   width={35}
                   height={35}
@@ -179,7 +179,7 @@ function Skills() {
             <h3 className="skillset-category-title text-center mb-1.5 text-2xl">
               Tools
             </h3>
-            <section className="skills-box flex m-auto align-center py-1.5 text-center space-evenly flex-wrap">
+            <section className="skills-box flex w-full m-auto align-center py-1.5 text-center justify-center flex-wrap">
               <article className="skills-card flex justify-center align-center">
                 <Image
                   src="/Git.png"
