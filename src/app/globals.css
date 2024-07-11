@@ -391,3 +391,36 @@ h6 {
 .nonVisible {
   display: none;
 }
+
+/* Media Query */
+
+@media (max-width: 640px) {
+  .body-wrapper,
+  .main,
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 98vw;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  .about-me,
+  .skills,
+  .projects,
+  .contact-form {
+    width: 100%;
+    filter: grayscale(0);
+  }
+
+  .social-nav-ul {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+  .view-work {
+    padding: 2px;
+    margin: 5px 0 0 0;
+  }
+}
