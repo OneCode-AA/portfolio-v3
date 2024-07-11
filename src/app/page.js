@@ -22,7 +22,7 @@ export default function Home() {
         <NavCards />
         <Hero />
         <SocialNavBar />
-        <div className="theme-btn-container sm:absolute  md:absolute  w-full py-3 col-start-10 col-end-11 row-start-1 row-end-2 ">
+        <div className="theme-btn-container sm:absolute sm:top-0 sm:left-1/3 md:absolute md:top-0 md:left-1/3  w-full py-3 col-start-10 col-end-11 row-start-1 row-end-2 ">
           <button type="button" className={`themeToggler ${toggle}`}>
             <span
               className={`statusIndicator ${toggle}`}
