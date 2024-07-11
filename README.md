@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # portfolio-v3
 
 
-Live Here: https://portfolio-v3-ak0t0s8ne-onecode-aas-projects.vercel.app/
+Live Here: https://portfolio-v3-beta-orcin.vercel.app/
